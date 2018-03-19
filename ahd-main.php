@@ -126,36 +126,36 @@ echo 'buider '. $builder.'<br>';
 		$energyQ1 = runfeat('feat_energy', $builder, array(1,2), 'energy-efficiency-' );
 
 		$sp1 = array(	1 => 'gorgeous', 
-						2 => 'stunning', 
-						3 => 'beautiful', 
-						4 => 'charming', 
-						5 => 'exquisite', 
-						6 => 'elegant', 
-						7 => 'lovely', 
-						8 => 'enchanting');
+				2 => 'stunning', 
+				3 => 'beautiful', 
+				4 => 'charming', 
+				5 => 'exquisite', 
+				6 => 'elegant', 
+				7 => 'lovely', 
+				8 => 'enchanting');
 
 		$sp2 = array(	9 => 'home',
-						10 => 'house');
+				10 => 'house');
 
 		$sp3 = array(	11 => 'spacious', 
-						12 => 'roomy', 
-						13 => 'comfortable');
+				12 => 'roomy', 
+				13 => 'comfortable');
 
 		$sp4 = array(	14 => 'other', 
-						15 => 'children\'s', 
-						16 => 'guest');
+				15 => 'children\'s', 
+				16 => 'guest');
 
 		$sp5 = array(	1 => 'gorgeous', 
-						2 => 'stunning', 
-						3 => 'beautiful', 
-						4 => 'charming', 
-						17 => 'striking', 
-						7 => 'lovely');
+				2 => 'stunning', 
+				3 => 'beautiful', 
+				4 => 'charming', 
+				17 => 'striking', 
+				7 => 'lovely');
 
 		$sp6 = array(	18 => 'welcoming', 
-						19 => 'relaxing', 
-						4 => 'charming', 
-						20 => 'delightful');
+				19 => 'relaxing', 
+				4 => 'charming', 
+				20 => 'delightful');
 
 		$spin1 = randWord($sp1, true);
 		$spin2 = randWord($sp2, false);
